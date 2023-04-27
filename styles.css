@@ -1,6 +1,31 @@
-.tabla {border: 2px solid black;}
-th {border: 1px solid black;}
-td {border: 1px solid black;}
+th {
+  border: 1px solid black;
+  border-right-style: none;}
+td {
+  border: 1px solid black;
+  border-top-style: none;
+  border-right-style: none;
+  padding: 1rem;}
+.celda {border: 1px solid black;}
+.celda2 {
+  border: 1px solid black;
+  border-top-style: none;}
+  
+body 
+    {background-color: rgb(241, 241, 110);
+    font-size: large;
+    font-style: calibri;
+    margin: 1rem;}
+  
+section {display: flex; justify-content: space-between;}
 
-body {background-color: rgb(226, 226, 47);}
+h1 
+    {font-family: 'Calligraffitti', cursive;
+    color: brown;
+    font-size: xx-large;}
 
+/*1 rem= 10px*/
+img 
+  {background-color: beige;
+  height: 10rem;
+  width: 10rem;}
