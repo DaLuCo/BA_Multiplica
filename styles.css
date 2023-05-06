@@ -10,6 +10,11 @@ td {
 .celda2 {
   border: 1px solid black;
   border-top-style: none;}
+.celda3 {border-style: none;}
+.mapa 
+   {width: 10rem;
+    height: 10rem;
+    align-items: end;}
   
 body 
     {background-color: rgb(241, 241, 110);
@@ -17,7 +22,9 @@ body
     font-style: calibri;
     margin: 1rem;}
   
-section {display: flex; justify-content: space-between;}
+section
+  {display: flex; justify-content: space-between;
+   column-count: 2;}
 
 h1 
     {font-family: 'Calligraffitti', cursive;
