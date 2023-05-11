@@ -1,0 +1,17 @@
+th {
+  border: 1px solid black;
+  border-right-style: none;}
+td {
+  border: 1px solid black;
+  border-top-style: none;
+  border-right-style: none;
+  padding: 1rem;}
+
+.celda {border: 1px solid black;}
+
+.celda2 {
+    border: 1px solid black;
+    border-top-style: none;}
+.celda3 
+    {border-style: none;
+     margin-top: 0%;}

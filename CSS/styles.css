@@ -1,0 +1,24 @@
+.mapa {
+    width: 10rem;
+    height: 10rem;
+    align-items: end;}
+  
+body {
+    background-color: rgb(241, 241, 110);
+    font-size: large;
+    font-style: calibri;
+    margin: 1rem;}
+  
+section {display: flex; justify-content: space-between;}
+
+header {
+    font-family: 'Calligraffitti', cursive;
+    color: brown;
+    font-size: xx-large;
+    text-align: center;}
+
+/*1 rem= 10px*/
+img 
+  {background-color: beige;
+  height: 10rem;
+  width: 10rem;}
