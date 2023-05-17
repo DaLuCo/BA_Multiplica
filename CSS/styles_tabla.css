@@ -1,3 +1,4 @@
+/*1 rem= 10px*/
 th {
   border: 1px solid black;
   border-right-style: none;}
@@ -12,6 +13,3 @@ td {
 .celda2 {
     border: 1px solid black;
     border-top-style: none;}
-.celda3 
-    {border-style: none;
-     margin-top: 0%;}
