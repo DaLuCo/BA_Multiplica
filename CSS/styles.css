@@ -31,8 +31,15 @@ img
   height: 10rem;
   width: 10rem;}
 
-td {
-  border: none;
-  padding: 1rem;}
-
 footer{font-family: 'Oswald', sans-serif;}
+
+.dark {
+  background-color: black;}
+
+#toggle {display: none;}
+#label_toggle{
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  color: white;}
+  
