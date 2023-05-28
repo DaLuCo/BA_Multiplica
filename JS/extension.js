@@ -6,9 +6,12 @@ console.log("Hola. Mi nombre es "+nombre+" "+apellido+", tengo "+edad+" "+"años
 
 alert("¡Bienvenidos/as! 👋😊");
 
-let toggle = document.getElementById('toggle');
-toggle.addEventListener('click', (event)=>{
+let toggle= document.getElementById("toggle");
+let label= document.getElementById("label");
+
+toggle.addEventListener("change", (event)=>{
   let checked= event.target.checked;
-  document.body.classList.toggle('dark');
-    if (checked==true){}
-  })
+  document.body.classList.toggle("dark");})
+label.addEventListener("change", (event)=>{
+  let checked= event.target.checked;
+  document.body.classList.toggle("dark");})
