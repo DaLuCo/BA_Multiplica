@@ -1,40 +1,4 @@
 /*1 rem= 10px*/
-body {
-    background-color: yellowgreen;
-    font-size: large;
-    font-style: calibri;
-    margin: 1rem;}
-  
-header {
-    font-family: 'Calligraffitti', cursive;
-    color: brown;
-    font-size: xx-large;
-    text-align: center;}
-
-section {display: flex; justify-content: space-evenly;}
-
-nav {
-  background-color: yellow;
-  margin-bottom: 1rem;}
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;}
-nav ul li {
-  display: inline-block;
-  width: 16.3%;}
-nav ul li a {color: black;}
-nav ul li a.activo {background-color: beige;}
-
-img {
-  background-color: beige;
-  height: 10rem;
-  width: 10rem;}
-
-td {
-  border: none;
-  padding: 1rem;}
-
 video {
   background-color: beige;
   height: 10rem;
